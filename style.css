@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+}
+
+#about .about-container{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about-container img{
+    width: 35vw;
+    height: 35vw;
+}
+
+.about-container div{
+    width: 40%;
+}
+
+.about-container h1{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-container div a{
+    background-color: #00A676;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    letter-spacing: 0.2em;
+    font-size: 12px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.about-container div>:nth-child(2){
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    color: rgb(99, 99, 99);
+    margin-bottom: 1rem;
+}
+
+.about-container div>:nth-child(3){
+    font-size: 15px;
+    color: rgb(99, 99, 99);
+    line-height: 2;
+    margin-bottom: 3rem;
+    font-weight: 200;
+}
+
+#welcome{
+    background: url('/assets/image/mrbillel.jpg') center/cover fixed;
+    height: 100vh;
+}
+
+#welcome div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#welcome div h1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#welcome div p{
+    color: rgb(255 255 255 / 50%);
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+}
+
+section h2{
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 3rem;
+    margin-top: 20px;
+}
+
+#education{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#education ul{
+    list-style: none;
+    width: 90%;
+}
+
+#education ul li{
+    border-radius: 7px;
+    background-color: #333;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#education ul li h1{
+    color: #00A676;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+#education ul li div>:first-child{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#education ul li div>:nth-child(3){
+    color: rgba(255 255 255 / 40%);
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+#education ul li div>:last-child{
+    color: rgba(255 255 255 / 30%);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#services h2{
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+
+#services > div{
+    display: flex;
+    justify-content: center;
+}
+
+#services div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 85%;
+}
+
+#services div ul li{
+    background-color: #333;
+    width: 22%;
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+#services div ul li h1{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+#services div ul li p{
+    color: #222;
+    line-height: 2;
+    font-weight: 300;
+    color: #858585;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+#services div ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    
+}
+
+.auto-project{
+    display: none;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#services div ul li div div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+#services div ul li button{
+    text-decoration: none;
+    color: #00a676;
+    font-weight: 300;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
