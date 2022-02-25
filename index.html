@@ -3,7 +3,6 @@
 <head>
     <script> </script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Mohamed</title>
@@ -25,7 +24,7 @@
     </section>
     <section id="about">
         <div class="about-container">
-            <img src="/assets/image/billel.jpg" alt="Presentation">
+            <img src="/assets/image/billel.jpg" alt="Presentation" class="hidden">
             <div>
                 <h1>About me</h1>
                 <p>Financial Analyst with a demonstrated history of working on project implementations. 
@@ -64,6 +63,61 @@
             </li>
         </ul>
     </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <div>
+                    <p>Septembr 2021-Today</p>
+                    <h1>Carreer transition</h1>
+                    <p>All of the following was done during my career search:
+                        Applied actively for permanent positions
+                        Developed my VBA and financial modelling skills (Excel)
+                        Learned to create a custom interface with Userforms (Excel & VBA)
+                        Learned data processing & cleaning + basic machine learning and stats in Python</p>
+                    <p>Hult International Business School</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>may 2021-sep 2021</p>
+                    <h1>Financial Analyst ITPS</h1>
+                    <p>I have been studying Accounting and Finance.
+                        The level of studies was high enough to make me gain confidence to take on a placement.
+                        The education, the exams, the deadlines, and external activities did help me improve my discipline.
+                        I developed my communication skills by sociallising and made myself adaptable to multicultural environments.
+                        The most interesting assignments were the group project, where I could reflect on all the different challenges in being in a team with diverse behaviours towards workload.</p>
+                    <p>University of Hertfordshire</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>mars 2021 - juin 2021</p>
+                    <h1>Financial Analyst Consulthon · Stage</h1>
+                    <p>I was in charge of undertaking finance digitalisation projects for the company. As the company was in a start-up stage, I was working in solo in the finance aspect by bringing the following into the company. 
+                        Created a financial modelling of cost, expense and revenue with an automated CSV feed (Macro-VBA)
+                        Created a chart of accounts to be used for future operations 
+                        Provide consultancy on accounting practices for raising funds</p>
+                    <p>University of Hertfordshire</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>2018-2021</p>
+                    <h1>Isabel Hospice</h1>
+                    <p>Financial Modelling and analytical tasks.
+                        Overseeing the project of Finance Digitalisation (in addition to what is stated below).
+                        Documenting the finance procedures and amend them when inefficiencies arise.
+                        Teaching the Staff technical analytic skills on excel.
+                        Developed monthly operations, financial review, expense reports and developed a cashflow model with excel.
+                        Prepared monthly sales, profit, and loss reports.
+                        Learned about audit reporting as well as analyzing invoices for management.
+                        Monitored and analyzed financial, statistical, and operational data trends.</p>
+                    <p>Welwyn Garden City, Hertfordshire, United KingdomWelwyn Garden City, Hertfordshire, United Kingdom</p>
+                </div>
+            </li>
+        </ul>
+    </section>
     <section id="services">
         <h2>Services</h2>
         <div>
@@ -75,11 +129,6 @@
                         repudiandae nam libero sequi a voluptatem accusamus qui ipsa perspiciatis aut 
                         reprehenderit ratione. Nam totam nostrum cum quia blanditiis est repellendus accusamus ad 
                         tenetur quia qui quaerat quam.</p>
-                    <div class="auto-project">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
                     <button onclick="selectAuto()">Learn more</button>
                 </li>
                 <li class="account">
@@ -88,7 +137,7 @@
                     <p>Lorem ipsum dolor sit amet. Aut impedit corrupti nisi dolores est sunt facilis.
                          Et dolorum repudiandae nam libero sequi a voluptatem accusamus qui ipsa perspiciatis aut reprehenderit ratione.
                          Nam totam nostrum cum quia blanditiis est repellendus accusamus ad tenetur quia qui quaerat quam.</p>
-                    <button>Learn more</button>
+                    <button onclick="selectAccount()">Learn more</button>
                 </li>
                 <li class="analys">
                     <img src="/assets/image/analis.PNG" alt="analysis">
@@ -98,12 +147,16 @@
                          ratione. 
                         Nam totam nostrum cum quia blanditiis est repellendus accusamus ad tenetur quia qui quaerat 
                         quam.</p>
-                    
-                    <button>Learn more</button>
+                    <button onclick="selectAnalys()">Learn more</button>
                 </li>
             </ul>
         </div>
     </section>
+    <footer>
+        <div></div>
+        <div></div>
+        <div></div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
